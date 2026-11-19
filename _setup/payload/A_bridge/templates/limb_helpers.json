@@ -1,0 +1,1636 @@
+{
+ "source": "C:\\claude\\max_blender\\test\\Ivelar_06_standard.max\tunits=inches\tfigure=true",
+ "nodes": [
+  {
+   "name": "Point_L Thigh",
+   "class": "Point",
+   "parent": "Bip01 L Thigh",
+   "bip": "L Thigh",
+   "m": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    -3.25863e-07,
+    0.0,
+    3.2583e-07,
+    -1.0,
+    -7.62939e-06,
+    0.0,
+    3.8147e-06
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "10",
+    "true",
+    "true",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Bone_L Thigh",
+   "class": "BoneGeometry",
+   "parent": "Point_L Thigh",
+   "bip": "L Thigh",
+   "m": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Orientation_Constraint",
+   "wire": [
+    174,
+    186,
+    203
+   ],
+   "layer": "bone_body",
+   "boneEnable": true,
+   "renderable": false,
+   "dim": [
+    "42.2061",
+    "9",
+    "9",
+    "0",
+    "false",
+    "false",
+    "false"
+   ],
+   "targets": [
+    [
+     "-",
+     50.0
+    ],
+    [
+     "Point_leg_L",
+     0.0
+    ]
+   ],
+   "relative": false,
+   "local_world": 1
+  },
+  {
+   "name": "Bone_L Thigh_Nub",
+   "class": "BoneGeometry",
+   "parent": "Bone_L Thigh",
+   "bip": "L Thigh",
+   "m": [
+    1.0,
+    0.0,
+    -1.80677e-07,
+    0.0,
+    1.0,
+    1.98089e-06,
+    1.82074e-07,
+    -1.94992e-06,
+    1.0,
+    42.2061,
+    0.0,
+    -7.62939e-06
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    174,
+    186,
+    203
+   ],
+   "layer": "B_Standard",
+   "boneEnable": true,
+   "renderable": false,
+   "dim": [
+    "10.5515",
+    "4.5",
+    "4.5",
+    "0",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Point_leg_L",
+   "class": "Point",
+   "parent": "Bip01 L Thigh",
+   "bip": "L Thigh",
+   "m": [
+    0.99969,
+    -0.0249035,
+    2.31899e-07,
+    0.0249034,
+    0.99969,
+    0.0,
+    -3.16184e-07,
+    0.0,
+    1.0,
+    -3.05176e-05,
+    -8.64267e-07,
+    -2.28882e-05
+   ],
+   "pos": "Position_XYZ",
+   "rot": "LookAt_Constraint",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "20",
+    "true",
+    "true",
+    "false",
+    "false"
+   ],
+   "targets": [
+    [
+     "-",
+     50.0
+    ],
+    [
+     "-",
+     50.0
+    ],
+    [
+     "Bip01 L Foot",
+     50.0
+    ]
+   ],
+   "relative": false,
+   "lookat": {
+    "TAX": "0",
+    "TAF": "false",
+    "UPW": "false",
+    "UPN": "Bip01 L Thigh",
+    "UPC": "1",
+    "SUP": "2",
+    "SUF": "false",
+    "UPA": "2"
+   }
+  },
+  {
+   "name": "Point_up_L",
+   "class": "Point",
+   "parent": "Bip01 L Thigh",
+   "bip": "L Thigh",
+   "m": [
+    0.999999,
+    0.0,
+    -1.62516e-07,
+    0.0,
+    1.0,
+    -3.34472e-07,
+    1.2666e-07,
+    3.29301e-07,
+    1.0,
+    41.7751,
+    -2.38419e-07,
+    1.90735e-06
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    224,
+    86,
+    86
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "15",
+    "true",
+    "true",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Box_Knee_L",
+   "class": "Box",
+   "parent": "Bip01 L Thigh",
+   "bip": "L Thigh",
+   "m": [
+    1.39698e-07,
+    -1.50809e-07,
+    -1.0,
+    0.999999,
+    -0.00129156,
+    1.31316e-07,
+    -0.00129155,
+    -0.999999,
+    1.50243e-07,
+    41.7751,
+    -4.76837e-07,
+    -3.8147e-06
+   ],
+   "pos": "Position_Expression",
+   "rot": "Orientation_Constraint",
+   "wire": [
+    177,
+    88,
+    27
+   ],
+   "layer": "bone_body",
+   "boneEnable": true,
+   "renderable": false,
+   "expr": "[ 41.7751, -4.76837e-007, -3.8147e-006 ]",
+   "dim": [
+    "4",
+    "10",
+    "-8.30674"
+   ],
+   "targets": [
+    [
+     "Point_dn_L",
+     50.0
+    ],
+    [
+     "Point_up_L",
+     50.0
+    ]
+   ],
+   "relative": true,
+   "local_world": 0
+  },
+  {
+   "name": "Point_dn_L",
+   "class": "Point",
+   "parent": "Bip01 L Calf",
+   "bip": "L Calf",
+   "m": [
+    0.999999,
+    0.0,
+    -1.50409e-07,
+    0.0,
+    1.0,
+    -3.37459e-07,
+    1.27591e-07,
+    3.37459e-07,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    224,
+    86,
+    86
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "25",
+    "true",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Point_R Thigh",
+   "class": "Point",
+   "parent": "Bip01 R Thigh",
+   "bip": "R Thigh",
+   "m": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    -4.52067e-06,
+    0.0,
+    4.57603e-06,
+    -1.0,
+    0.0,
+    0.0,
+    -2.28882e-05
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "10",
+    "true",
+    "true",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Bone_R Thigh",
+   "class": "BoneGeometry",
+   "parent": "Point_R Thigh",
+   "bip": "R Thigh",
+   "m": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Orientation_Constraint",
+   "wire": [
+    174,
+    186,
+    203
+   ],
+   "layer": "bone_body",
+   "boneEnable": true,
+   "renderable": false,
+   "dim": [
+    "42.2061",
+    "9",
+    "9",
+    "0",
+    "false",
+    "false",
+    "false"
+   ],
+   "targets": [
+    [
+     "Point_leg_R",
+     0.0
+    ],
+    [
+     "-",
+     50.0
+    ]
+   ],
+   "relative": false,
+   "local_world": 1
+  },
+  {
+   "name": "Bone_R Thigh_Nub",
+   "class": "BoneGeometry",
+   "parent": "Bone_R Thigh",
+   "bip": "R Thigh",
+   "m": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    2.95745e-06,
+    0.0,
+    -2.94264e-06,
+    1.0,
+    42.206,
+    0.0,
+    4.76837e-06
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    174,
+    186,
+    203
+   ],
+   "layer": "B_Standard",
+   "boneEnable": true,
+   "renderable": false,
+   "dim": [
+    "10.5515",
+    "4.5",
+    "4.5",
+    "0",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Point_leg_R",
+   "class": "Point",
+   "parent": "Bip01 R Thigh",
+   "bip": "R Thigh",
+   "m": [
+    0.99969,
+    -0.0249035,
+    2.01631e-07,
+    0.0249034,
+    0.99969,
+    0.0,
+    -1.94181e-07,
+    0.0,
+    1.0,
+    -7.62939e-06,
+    -1.04308e-06,
+    -2.28882e-05
+   ],
+   "pos": "Position_XYZ",
+   "rot": "LookAt_Constraint",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "20",
+    "true",
+    "true",
+    "false",
+    "false"
+   ],
+   "targets": [
+    [
+     "-",
+     50.0
+    ],
+    [
+     "Bip01 R Foot",
+     50.0
+    ]
+   ],
+   "relative": false,
+   "lookat": {
+    "TAX": "0",
+    "TAF": "false",
+    "UPW": "false",
+    "UPN": "Bip01 R Thigh",
+    "UPC": "1",
+    "SUP": "2",
+    "SUF": "false",
+    "UPA": "2"
+   }
+  },
+  {
+   "name": "Point_up_R",
+   "class": "Point",
+   "parent": "Bip01 R Thigh",
+   "bip": "R Thigh",
+   "m": [
+    0.999999,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    41.7751,
+    7.15256e-07,
+    2.86102e-06
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    224,
+    86,
+    86
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "15",
+    "true",
+    "true",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Box_Knee_R",
+   "class": "Box",
+   "parent": "Bip01 R Thigh",
+   "bip": "R Thigh",
+   "m": [
+    0.000128819,
+    -0.000129211,
+    -1.0,
+    0.999998,
+    -0.00195959,
+    0.000129114,
+    -0.00195965,
+    -0.999998,
+    0.000128959,
+    41.7751,
+    -1.78814e-07,
+    1.04904e-05
+   ],
+   "pos": "Position_Expression",
+   "rot": "Orientation_Constraint",
+   "wire": [
+    177,
+    88,
+    27
+   ],
+   "layer": "bone_body",
+   "boneEnable": true,
+   "renderable": false,
+   "expr": "[ 41.7751, -1.6205e-007, 9.53674e-006 ]",
+   "dim": [
+    "4",
+    "10",
+    "-8.30674"
+   ],
+   "targets": [
+    [
+     "Point_dn_R",
+     50.0
+    ],
+    [
+     "Point_up_R",
+     50.0
+    ]
+   ],
+   "relative": true,
+   "local_world": 0
+  },
+  {
+   "name": "Point_dn_R",
+   "class": "Point",
+   "parent": "Bip01 R Calf",
+   "bip": "R Calf",
+   "m": [
+    1.0,
+    2.08952e-05,
+    0.0,
+    -2.08952e-05,
+    1.0,
+    -0.000182628,
+    0.0,
+    0.000182629,
+    1.0,
+    3.8147e-06,
+    -2.38419e-07,
+    9.53674e-06
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    224,
+    86,
+    86
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "25",
+    "true",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Point_elbowL_dn",
+   "class": "Point",
+   "parent": "Bip01 L Forearm",
+   "bip": "L Forearm",
+   "m": [
+    1.0,
+    0.0,
+    1.19209e-07,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "15",
+    "true",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Point_elbowL_up",
+   "class": "Point",
+   "parent": "Bip01 L UpperArm",
+   "bip": "L UpperArm",
+   "m": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -1.56462e-07,
+    1.78814e-07,
+    1.63913e-07,
+    1.0,
+    22.416,
+    0.0,
+    0.0
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "15",
+    "true",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Box_elbow_L",
+   "class": "Box",
+   "parent": "Bip01 L Forearm",
+   "bip": "L Forearm",
+   "m": [
+    -0.994779,
+    -0.102053,
+    3.00705e-05,
+    1.01328e-05,
+    0.00019704,
+    1.0,
+    -0.102053,
+    0.994779,
+    -0.000194877,
+    0.000175476,
+    -3.8147e-05,
+    0.00025177
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Orientation_Constraint",
+   "wire": [
+    225,
+    143,
+    87
+   ],
+   "layer": "bone_body",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "5.05013",
+    "2.09415",
+    "3.59281"
+   ],
+   "targets": [
+    [
+     "Point_elbowL_dn",
+     50.0
+    ],
+    [
+     "Point_elbowL_up",
+     50.0
+    ]
+   ],
+   "relative": true,
+   "local_world": 0
+  },
+  {
+   "name": "Point_elbowR_dn",
+   "class": "Point",
+   "parent": "Bip01 R Forearm",
+   "bip": "R Forearm",
+   "m": [
+    1.0,
+    3.27826e-07,
+    0.0,
+    -3.22238e-07,
+    1.0,
+    -1.44821e-07,
+    0.0,
+    1.64378e-07,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "15",
+    "true",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Point_elbowR_up",
+   "class": "Point",
+   "parent": "Bip01 R UpperArm",
+   "bip": "R UpperArm",
+   "m": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -1.3411e-07,
+    0.0,
+    1.41561e-07,
+    1.0,
+    22.416,
+    0.0,
+    0.0
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "15",
+    "true",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Box_elbow_R",
+   "class": "Box",
+   "parent": "Bip01 R Forearm",
+   "bip": "R Forearm",
+   "m": [
+    -0.994779,
+    -0.102054,
+    -2.38419e-07,
+    2.98023e-07,
+    -1.27591e-07,
+    -1.0,
+    -0.102054,
+    0.994779,
+    -1.67638e-07,
+    -7.62939e-06,
+    0.0,
+    1.52588e-05
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Orientation_Constraint",
+   "wire": [
+    225,
+    143,
+    87
+   ],
+   "layer": "bone_body",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "5.05013",
+    "2.09415",
+    "3.59281"
+   ],
+   "targets": [
+    [
+     "Point_elbowR_up",
+     50.0
+    ],
+    [
+     "Point_elbowR_dn",
+     50.0
+    ]
+   ],
+   "relative": true,
+   "local_world": 0
+  },
+  {
+   "name": "Point002",
+   "class": "Point",
+   "parent": "Bip01 L UpperArm",
+   "bip": "L UpperArm",
+   "m": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    7.97115,
+    0.0,
+    0.0
+   ],
+   "pos": "Position_Expression",
+   "rot": "Euler_XYZ",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "expr": "[ 7.97115, -1.43051e-006, 1.09139e-011 ]",
+   "dim": [
+    "10",
+    "true",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Point001",
+   "class": "Point",
+   "parent": "Bip01 L Clavicle",
+   "bip": "L Clavicle",
+   "m": [
+    0.918409,
+    0.0424418,
+    -0.393349,
+    -0.0461631,
+    0.998934,
+    0.0,
+    0.39293,
+    0.0181582,
+    0.919389,
+    9.53674e-07,
+    -2.38419e-07,
+    -4.57764e-05
+   ],
+   "pos": "Position_XYZ",
+   "rot": "LookAt_Constraint",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "10",
+    "false",
+    "true",
+    "false",
+    "false"
+   ],
+   "targets": [
+    [
+     "Point002",
+     50.0
+    ]
+   ],
+   "relative": false,
+   "lookat": {
+    "TAX": "0",
+    "TAF": "false",
+    "UPW": "false",
+    "UPN": "Bip01 L Clavicle",
+    "UPC": "1",
+    "SUP": "2",
+    "SUF": "false",
+    "UPA": "2"
+   }
+  },
+  {
+   "name": "Point003",
+   "class": "Point",
+   "parent": "Bip01 L UpperArm",
+   "bip": "L UpperArm",
+   "m": [
+    1.0,
+    0.0,
+    -5.66244e-07,
+    0.0,
+    0.993176,
+    -0.116624,
+    6.85453e-07,
+    0.116624,
+    0.993176,
+    7.62939e-06,
+    0.0,
+    1.52588e-05
+   ],
+   "pos": "Position_XYZ",
+   "rot": "LookAt_Constraint",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "10",
+    "true",
+    "true",
+    "false",
+    "false"
+   ],
+   "targets": [
+    [
+     "Bip01 L ForeTwist",
+     50.0
+    ]
+   ],
+   "relative": false,
+   "lookat": {
+    "TAX": "0",
+    "TAF": "false",
+    "UPW": "false",
+    "UPN": "Point001",
+    "UPC": "1",
+    "SUP": "2",
+    "SUF": "false",
+    "UPA": "2"
+   }
+  },
+  {
+   "name": "Box_ Clavicle_L_01",
+   "class": "Box",
+   "parent": "Bip01 L UpperArm",
+   "bip": "L UpperArm",
+   "m": [
+    0.959718,
+    -0.00747181,
+    0.280867,
+    0.0282429,
+    0.997149,
+    -0.0699788,
+    -0.279543,
+    0.0750924,
+    0.957192,
+    7.62939e-06,
+    0.0,
+    1.52588e-05
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Orientation_Constraint",
+   "wire": [
+    225,
+    198,
+    87
+   ],
+   "layer": "bone_body",
+   "boneEnable": true,
+   "renderable": false,
+   "dim": [
+    "8",
+    "5",
+    "5"
+   ],
+   "targets": [
+    [
+     "Bip01 L UpperArm",
+     3.0
+    ],
+    [
+     "Point001",
+     7.0
+    ]
+   ],
+   "relative": false,
+   "local_world": 0
+  },
+  {
+   "name": "Box_UpperArm_L_002",
+   "class": "Box",
+   "parent": "Bip01 L UpperArm",
+   "bip": "L UpperArm",
+   "m": [
+    1.0,
+    0.0,
+    -3.8743e-07,
+    0.0,
+    0.996654,
+    -0.0817314,
+    3.8743e-07,
+    0.0817315,
+    0.996655,
+    2.76956,
+    1.90735e-06,
+    1.52588e-05
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Orientation_Constraint",
+   "wire": [
+    225,
+    198,
+    87
+   ],
+   "layer": "bone_body",
+   "boneEnable": true,
+   "renderable": false,
+   "dim": [
+    "8",
+    "5",
+    "5"
+   ],
+   "targets": [
+    [
+     "Bip01 L UpperArm",
+     3.0
+    ],
+    [
+     "Point003",
+     7.0
+    ]
+   ],
+   "relative": false,
+   "local_world": 0
+  },
+  {
+   "name": "Point005",
+   "class": "Point",
+   "parent": "Bip01 R UpperArm",
+   "bip": "R UpperArm",
+   "m": [
+    1.0,
+    5.66244e-07,
+    -1.19209e-07,
+    -5.43892e-07,
+    1.0,
+    8.64267e-07,
+    -2.08616e-07,
+    -7.6741e-07,
+    1.0,
+    7.97112,
+    -1.90735e-06,
+    -1.52588e-05
+   ],
+   "pos": "Position_Expression",
+   "rot": "Euler_XYZ",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "expr": "[ 7.97112, -1.19209e-006, -1.52588e-005 ]",
+   "dim": [
+    "10",
+    "true",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Point004",
+   "class": "Point",
+   "parent": "Bip01 R Clavicle",
+   "bip": "R Clavicle",
+   "m": [
+    0.918408,
+    0.0424416,
+    0.393351,
+    -0.0461629,
+    0.998934,
+    0.0,
+    -0.392932,
+    -0.0181582,
+    0.919389,
+    9.53674e-07,
+    -2.38419e-07,
+    -1.52588e-05
+   ],
+   "pos": "Position_XYZ",
+   "rot": "LookAt_Constraint",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "10",
+    "false",
+    "true",
+    "false",
+    "false"
+   ],
+   "targets": [
+    [
+     "Point005",
+     50.0
+    ]
+   ],
+   "relative": false,
+   "lookat": {
+    "TAX": "0",
+    "TAF": "false",
+    "UPW": "false",
+    "UPN": "Bip01 R Clavicle",
+    "UPC": "1",
+    "SUP": "2",
+    "SUF": "false",
+    "UPA": "2"
+   }
+  },
+  {
+   "name": "Point006",
+   "class": "Point",
+   "parent": "Bip01 R UpperArm",
+   "bip": "R UpperArm",
+   "m": [
+    1.0,
+    0.0,
+    1.19209e-07,
+    0.0,
+    0.993176,
+    0.116623,
+    -3.27826e-07,
+    -0.116623,
+    0.993177,
+    -1.52588e-05,
+    0.0,
+    -7.62939e-06
+   ],
+   "pos": "Position_XYZ",
+   "rot": "LookAt_Constraint",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "10",
+    "true",
+    "true",
+    "false",
+    "false"
+   ],
+   "targets": [
+    [
+     "Bip01 R ForeTwist",
+     50.0
+    ]
+   ],
+   "relative": false,
+   "lookat": {
+    "TAX": "0",
+    "TAF": "false",
+    "UPW": "false",
+    "UPN": "Point004",
+    "UPC": "1",
+    "SUP": "2",
+    "SUF": "false",
+    "UPA": "2"
+   }
+  },
+  {
+   "name": "Box_ Clavicle_R_01",
+   "class": "Box",
+   "parent": "Bip01 R UpperArm",
+   "bip": "R UpperArm",
+   "m": [
+    -0.992558,
+    0.00582543,
+    0.121637,
+    -0.00966304,
+    -0.999473,
+    -0.0309839,
+    -0.121392,
+    0.0319286,
+    -0.992091,
+    0.000267029,
+    3.24249e-05,
+    -0.000335693
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Orientation_Constraint",
+   "wire": [
+    225,
+    198,
+    87
+   ],
+   "layer": "bone_body",
+   "boneEnable": true,
+   "renderable": false,
+   "dim": [
+    "8",
+    "5",
+    "5"
+   ],
+   "targets": [
+    [
+     "Bip01 R UpperArm",
+     7.0
+    ],
+    [
+     "Point004",
+     3.0
+    ]
+   ],
+   "relative": false,
+   "local_world": 0
+  },
+  {
+   "name": "Box_UpperArm_L_003",
+   "class": "Box",
+   "parent": "Bip01 R UpperArm",
+   "bip": "R UpperArm",
+   "m": [
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.996654,
+    -0.0817313,
+    2.08616e-07,
+    0.0817312,
+    -0.996654,
+    2.76969,
+    3.8147e-05,
+    -0.000175476
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Orientation_Constraint",
+   "wire": [
+    225,
+    198,
+    87
+   ],
+   "layer": "bone_body",
+   "boneEnable": true,
+   "renderable": false,
+   "dim": [
+    "8",
+    "5",
+    "5"
+   ],
+   "targets": [
+    [
+     "Bip01 R UpperArm",
+     3.0
+    ],
+    [
+     "Point006",
+     7.0
+    ]
+   ],
+   "relative": false,
+   "local_world": 0
+  },
+  {
+   "name": "Point_L Calf",
+   "class": "Point",
+   "parent": "Bip01 L Calf",
+   "bip": "L Calf",
+   "m": [
+    -1.0,
+    4.91738e-07,
+    -1.63913e-07,
+    -4.47035e-07,
+    -1.0,
+    0.0,
+    -1.71363e-07,
+    0.0,
+    1.0,
+    42.7329,
+    -9.676706448706869e-07,
+    -5.806029957283425e-06
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "20",
+    "true",
+    "true",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "Point_R Calf",
+   "class": "Point",
+   "parent": "Bip01 R Calf",
+   "bip": "R Calf",
+   "m": [
+    -1.0,
+    8.04663e-07,
+    -1.19209e-07,
+    -7.97212e-07,
+    -1.0,
+    6.35441e-06,
+    -1.3411e-07,
+    6.34883e-06,
+    1.0,
+    42.7329,
+    -9.676706448706869e-07,
+    0.0
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    14,
+    255,
+    2
+   ],
+   "layer": "Bone_helper",
+   "boneEnable": false,
+   "renderable": false,
+   "dim": [
+    "20",
+    "true",
+    "true",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "B_Calf_L",
+   "class": "BoneGeometry",
+   "parent": "Point_L Calf",
+   "bip": "L Calf",
+   "m": [
+    -1.0,
+    0.0,
+    4.91738e-07,
+    0.0,
+    -1.0,
+    0.0,
+    5.06639e-07,
+    0.0,
+    1.0,
+    42.7329,
+    2.128872577621169e-05,
+    1.3547352499833789e-05
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    255,
+    200,
+    0
+   ],
+   "layer": "B_Standard",
+   "boneEnable": true,
+   "renderable": false,
+   "dim": [
+    "42.6056",
+    "9",
+    "9",
+    "0",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "B_Calf_L_Nub",
+   "class": "BoneGeometry",
+   "parent": "B_Calf_L",
+   "bip": "L Calf",
+   "m": [
+    1.0,
+    -4.76837e-07,
+    4.69387e-07,
+    4.84288e-07,
+    1.0,
+    0.0,
+    -5.1409e-07,
+    0.0,
+    1.0,
+    42.60555809287946,
+    -9.676706448706869e-07,
+    1.935343319094475e-06
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    255,
+    200,
+    0
+   ],
+   "layer": "B_Standard",
+   "boneEnable": true,
+   "renderable": false,
+   "dim": [
+    "10.6514",
+    "4.5",
+    "4.5",
+    "0",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "B_Calf_R",
+   "class": "BoneGeometry",
+   "parent": "Point_R Calf",
+   "bip": "R Calf",
+   "m": [
+    -1.0,
+    -8.49366e-07,
+    -2.38419e-07,
+    8.79169e-07,
+    -1.0,
+    6.41309e-06,
+    -1.3411e-07,
+    6.46338e-06,
+    1.0,
+    42.7329,
+    3.580377530250648e-05,
+    3.87068663818895e-06
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    255,
+    200,
+    0
+   ],
+   "layer": "B_Standard",
+   "boneEnable": true,
+   "renderable": false,
+   "dim": [
+    "42.6056",
+    "9",
+    "9",
+    "0",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  {
+   "name": "B_Calf_R_Nub",
+   "class": "BoneGeometry",
+   "parent": "B_Calf_R",
+   "bip": "R Calf",
+   "m": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    2.6729e-07,
+    0.0,
+    -2.36556e-07,
+    1.0,
+    42.60555809287946,
+    0.0,
+    0.0
+   ],
+   "pos": "Position_XYZ",
+   "rot": "Euler_XYZ",
+   "wire": [
+    255,
+    200,
+    0
+   ],
+   "layer": "B_Standard",
+   "boneEnable": true,
+   "renderable": false,
+   "dim": [
+    "10.6514",
+    "4.5",
+    "4.5",
+    "0",
+    "false",
+    "false",
+    "false"
+   ]
+  }
+ ],
+ "followers": [
+  {
+   "name": "B_Vol_Elbow_L",
+   "src": "Box_elbow_L"
+  },
+  {
+   "name": "B_Vol_Clavicle_L_01",
+   "src": "Box_ Clavicle_L_01"
+  },
+  {
+   "name": "B_Vol_UpperArm_L_02",
+   "src": "Box_UpperArm_L_002"
+  },
+  {
+   "name": "B_Vol_Elbow_R",
+   "src": "Box_elbow_R"
+  },
+  {
+   "name": "B_Vol_Clavicle_R_01",
+   "src": "Box_ Clavicle_R_01"
+  },
+  {
+   "name": "B_Vol_UpperArm_R_02",
+   "src": "Box_UpperArm_L_003"
+  },
+  {
+   "name": "B_Vol_Knee_L",
+   "src": "Box_Knee_L"
+  },
+  {
+   "name": "B_Thigh_L",
+   "src": "Bone_L Thigh"
+  },
+  {
+   "name": "B_Vol_Knee_R",
+   "src": "Box_Knee_R"
+  },
+  {
+   "name": "B_Thigh_R",
+   "src": "Bone_R Thigh"
+  }
+ ],
+ "seg": {
+  "Pelvis": 10.3513,
+  "Spine": 9.48222,
+  "Spine1": 7.83555,
+  "Spine2": 20.0104,
+  "Neck": 6.54795,
+  "L Clavicle": 7.97113,
+  "L UpperArm": 22.416,
+  "L Forearm": 24.9245,
+  "L Thigh": 42.2061,
+  "L Calf": 42.7329,
+  "R Clavicle": 7.97113,
+  "R UpperArm": 22.416,
+  "R Forearm": 24.9245,
+  "R Thigh": 42.2061,
+  "R Calf": 42.7329
+ },
+ "missing": [],
+ "note": "2026-10-17: user calf structure - B_Calf_L/R are plain bones under Point_L/R Calf (knee spread control); Bone_L/R Calf removed"
+}

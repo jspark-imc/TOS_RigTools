@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ADSK_CUI>
+    <CUIWindows>
+        <Window name="Ribbon" rank="1" subRank="0" hidden="1" dPanel="1" tabbed="0" curTab="-1" cType="4" type="N">
+            <FRect left="960" top="194" right="1207" bottom="792" />
+            <DRect left="0" top="92" right="1920" bottom="133" />
+            <DRectPref left="2147483647" top="2147483647" right="-2147483648" bottom="-2147483648" />
+            <CurPos left="10" top="10" right="94" bottom="10" floating="0" panelID="1" />
+        </Window>
+        <Window name="Viewport Layout Tabs" rank="11" subRank="0" hidden="0" dPanel="4" tabbed="0" curTab="-1" cType="4" type="N">
+            <FRect left="92" top="92" right="148" bottom="130" />
+            <DRect left="0" top="113" right="40" bottom="405" />
+            <DRectPref left="2147483647" top="2147483647" right="-2147483648" bottom="-2147483648" />
+            <CurPos left="0" top="113" right="40" bottom="405" floating="0" panelID="4" />
+        </Window>
+        <Window name="Enhanced Menus" type="N" rank="-1" subRank="0" hidden="1" dPanel="0" tabbed="0" curTab="-1" cType="4">
+            <FRect left="2147483647" top="2147483647" right="-2147483648" bottom="-2147483648" />
+            <DRect left="2147483647" top="2147483647" right="-2147483648" bottom="-2147483648" />
+            <DRectPref left="2147483647" top="2147483647" right="-2147483648" bottom="-2147483648" />
+            <CurPos left="10" top="10" right="110" bottom="74" floating="1" panelID="16" />
+        </Window>
+    </CUIWindows>
+</ADSK_CUI>

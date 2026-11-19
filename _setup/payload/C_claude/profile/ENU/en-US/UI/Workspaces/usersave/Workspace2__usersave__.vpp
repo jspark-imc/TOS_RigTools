@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<viewportPresetList>
+    <preset name="Animation Layout" layout="83" binaryDataFileName="ViewPanelPresets_Animation Layout Preset.bin">
+        <viewport slot="0" type="16" isExtended="1" isMaximized="0" oldNonMaximizedIndex="0" />
+        <viewport slot="1" type="2" isExtended="0" isMaximized="0" oldNonMaximizedIndex="1" shadingStyle="1" edgedFaces="0" />
+        <viewport slot="2" type="11" isExtended="1" isMaximized="0" oldNonMaximizedIndex="2" />
+        <divider value="0.625610" />
+        <divider value="0.172170" />
+        <divider value="0.500000" />
+    </preset>
+    <preset name="Rendering Layout" layout="18" binaryDataFileName="ViewPanelPresets_Rendering Preset.bin">
+        <viewport slot="0" type="20" isExtended="1" ExtendedViewportClassID_partA="724249387l" ExtendedViewportClassID_partB="1868330912l" isMaximized="0" oldNonMaximizedIndex="0" />
+        <viewport slot="1" type="4" isExtended="0" isMaximized="0" oldNonMaximizedIndex="1" shadingStyle="1" edgedFaces="0" />
+        <divider value="0.500000" />
+        <divider value="0.238797" />
+        <divider value="0.500000" />
+    </preset>
+    <preset name="Modeling Layout " layout="18">
+        <viewport slot="0" type="7" isExtended="0" isMaximized="0" oldNonMaximizedIndex="0" shadingStyle="14" edgedFaces="0" />
+        <viewport slot="1" type="2" isExtended="0" isMaximized="0" oldNonMaximizedIndex="1" shadingStyle="2" edgedFaces="0" />
+        <divider value="0.500000" />
+        <divider value="0.500000" />
+        <divider value="0.500000" />
+    </preset>
+</viewportPresetList>

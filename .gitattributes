@@ -1,0 +1,4 @@
+# 줄바꿈 자동 변환 끔 (설치기가 파일을 바이트 그대로 비교함)
+* -text
+*.max binary
+*.zip binary

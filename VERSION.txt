@@ -1,0 +1,9 @@
+TOS_RigTools 1.0 (2026-11-18) - TOS 프로젝트용 리깅 툴 (3ds Max 2016), MTOS_RigTools 1.0 을 바탕으로 고침
+1.0 (11-18): 이름 TOS_RigTools (메뉴 TOS > TOS_RigTools), 기준 = 각 PC 의 <루트>\ani\Character\PC 직업별 폴더 (자동으로 찾음, 창에서 경로 변경·다시 읽기)
+  MTOS_RigTools·GE 리그 툴과 한 Max 에 같이 켜도 됨 (전역 이름 TosRig·TosRigStd·trts_*·tsbg_*·tos_*·TOS_*, 데이터 폴더 scripts\TOS_RigTools, 설정 plugcfg\TOS_RigTools.ini)
+  2. Biped 자동 생성: 직업_성별 레퍼런스 Biped 그대로 (tos_bip_<archer|cleric|mage|warrior>_<m|f>.fig, 기준 = 각 직업 폴더의 6th_greenschool 코스튬). 창에 [직업]·[성별] 칸
+  3. 헬퍼·보조 본: MTOS 와 같음 + 여자는 Dummy_Chast (부모 Bip01 Spine2, archer_f·cleric_f 레퍼런스와 같은 자리·크기)
+  4. 세컨더리 본 · 5. 스킨 · 6. 리그 체크 · 7. 리깅 완료 · 0. 작업 시간 · 1. 모델링 체크: MTOS 와 같음 (데이터도 같음)
+  자세히: docs\TOS_1.0_변경사항.md (바탕: docs\MTOS_1.0_변경사항.md)
+A: MaxBridge 1.4.6 + VirusGuard 1.2 + Blender Max Bridge 1.5.1 (MTOS 와 같음)
+C: Claude Max 환경 (MTOS 와 같음)

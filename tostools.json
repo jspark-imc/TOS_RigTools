@@ -1,0 +1,23 @@
+{
+    "slug":  "tos-rigtools-max2016",
+    "name":  "TOS_RigTools (Max 2016)",
+    "kind":  "max",
+    "teams":  [
+                  "애니"
+              ],
+    "summary":  "TOS 캐릭터 리깅 툴 (3ds Max 2016): Biped 자동 생성, Twist 보조 본, 망토·치마·어깨 세컨더리 본, 레퍼런스 웨이트 스킨",
+    "host_app":  "3ds Max 2016 (Windows), 블렌더 애드온은 블렌더 4.2 이상",
+    "install_guide":  "1. zip 을 아무 곳에나 풀기\n2. 3ds Max·블렌더를 끄고 INSTALL_ALL.bat 더블클릭 (끝에 점검까지 해요)\n3. Max 상단 메뉴 TOS \u003e TOS_RigTools\n되돌리기: 3_RESTORE.bat (설치 전 파일은 %USERPROFILE%\\tos_rig_backup 에 백업)",
+    "description":  "TOS 레퍼런스(ani\\Character\\PC) 기준 리깅 툴. 자세한 것: README_KO.txt, docs\\TOS_1.0_변경사항.md",
+    "include":  [
+                    "**"
+                ],
+    "exclude":  [
+                    "_logs/**",
+                    "**/*.bak*",
+                    "**/Thumbs.db",
+                    "tostools.json"
+                ],
+    "zip_folder":  "TOS_RigTools_v1.0_Max2016",
+    "last_pushed":  null
+}

@@ -1,0 +1,813 @@
+{
+ "version": 1,
+ "created": "2026-10-30",
+ "source": "C:\\claude\\test\\rig_test (기본 의상만, 18개 파일)",
+ "note": "세컨더리 본 웨이트 참고값 (절대값 아님). Bip·보조 본 웨이트는 넣지 않음. 위치(pos)는 체인 위=0, 끝=1",
+ "kinds": {
+  "cape": {
+   "along_blend": 0.22999999999999998,
+   "side_blend": 0.27,
+   "bip_mixed_top": 0.05999999999999999,
+   "bip_share_top": 0.029999999999999995,
+   "rigid": 0.4799999999999999,
+   "bip_mixed": 0.02,
+   "helper_mixed": 0.0,
+   "verts": 18361,
+   "sources": 1
+  },
+  "etc": {
+   "along_blend": 0.18,
+   "side_blend": 0.11,
+   "bip_mixed_top": 0.22999999999999998,
+   "bip_share_top": 0.13,
+   "rigid": 0.54,
+   "bip_mixed": 0.14,
+   "helper_mixed": 0.06,
+   "verts": 57934,
+   "sources": 1
+  },
+  "skirt": {
+   "along_blend": 0.23,
+   "side_blend": 0.31,
+   "bip_mixed_top": 0.09,
+   "bip_share_top": 0.05,
+   "rigid": 0.37,
+   "bip_mixed": 0.04000000000000001,
+   "helper_mixed": 0.05999999999999999,
+   "verts": 26853,
+   "sources": 1
+  },
+  "hair": {
+   "along_blend": 0.47,
+   "side_blend": 0.15,
+   "bip_mixed_top": 0.54,
+   "bip_share_top": 0.32,
+   "rigid": 0.25,
+   "bip_mixed": 0.22,
+   "helper_mixed": 0.0,
+   "verts": 68090,
+   "sources": 1
+  }
+ },
+ "files": {
+  "Bacha2_t_bip": {
+   "meshes": [
+    [
+     "bacha_body2",
+     2146
+    ]
+   ],
+   "chains": {
+    "cape": 6,
+    "skirt": 9,
+    "etc": 22,
+    "hair": 3
+   },
+   "verts": {
+    "cape": 741,
+    "etc": 1405
+   }
+  },
+  "behemoth_t_bip": {
+   "meshes": [
+    [
+     "behemoth_body",
+     3719
+    ],
+    [
+     "behemoth_hair",
+     4123
+    ],
+    [
+     "behemoth_body_chain",
+     45
+    ]
+   ],
+   "chains": {
+    "hair": 5,
+    "etc": 10,
+    "skirt": 8
+   },
+   "verts": {
+    "etc": 2889,
+    "skirt": 875,
+    "hair": 4123
+   }
+  },
+  "eunha_t_bip": {
+   "meshes": [
+    [
+     "hair",
+     4094
+    ],
+    [
+     "body",
+     9755
+    ]
+   ],
+   "chains": {
+    "hair": 6,
+    "etc": 19,
+    "skirt": 7
+   },
+   "verts": {
+    "hair": 4094,
+    "skirt": 1443,
+    "etc": 8312
+   }
+  },
+  "leviathan_t_bip": {
+   "meshes": [
+    [
+     "hair",
+     3676
+    ],
+    [
+     "body",
+     8925
+    ],
+    [
+     "body1",
+     152
+    ]
+   ],
+   "chains": {
+    "etc": 8,
+    "hair": 4,
+    "cape": 25,
+    "skirt": 2
+   },
+   "verts": {
+    "hair": 3676,
+    "cape": 8799,
+    "etc": 126,
+    "skirt": 152
+   }
+  },
+  "meira_t_bip": {
+   "meshes": [
+    [
+     "meira_body",
+     1333
+    ],
+    [
+     "meira_headscarf",
+     1354
+    ],
+    [
+     "meira_body2",
+     424
+    ],
+    [
+     "meira_hair2",
+     3545
+    ]
+   ],
+   "chains": {
+    "hair": 5,
+    "etc": 11
+   },
+   "verts": {
+    "etc": 3111,
+    "hair": 3545
+   }
+  },
+  "pc_set_Laburd_set": {
+   "meshes": [
+    [
+     "body",
+     5124
+    ]
+   ],
+   "chains": {
+    "etc": 17,
+    "skirt": 8,
+    "cape": 6
+   },
+   "verts": {
+    "skirt": 1086,
+    "etc": 2766,
+    "cape": 1272
+   }
+  },
+  "pc_set_berroniffrare": {
+   "meshes": [
+    [
+     "berroniffrare_body",
+     5161
+    ],
+    [
+     "Berroniffrare_hair",
+     5695
+    ]
+   ],
+   "chains": {
+    "etc": 6,
+    "hair": 3,
+    "skirt": 8
+   },
+   "verts": {
+    "etc": 2145,
+    "skirt": 3016,
+    "hair": 5695
+   }
+  },
+  "pc_set_braise": {
+   "meshes": [
+    [
+     "hair",
+     5081
+    ],
+    [
+     "body",
+     3163
+    ]
+   ],
+   "chains": {
+    "etc": 11,
+    "hair": 5,
+    "skirt": 6
+   },
+   "verts": {
+    "hair": 5081,
+    "etc": 2247,
+    "skirt": 916
+   }
+  },
+  "pc_set_dina": {
+   "meshes": [
+    [
+     "Dina_Hat",
+     937
+    ],
+    [
+     "Dina_Hair",
+     3155
+    ],
+    [
+     "Dina_body",
+     3351
+    ]
+   ],
+   "chains": {
+    "etc": 9,
+    "skirt": 8,
+    "hair": 8
+   },
+   "verts": {
+    "etc": 1820,
+    "hair": 3155,
+    "skirt": 2468
+   }
+  },
+  "pc_set_gaura": {
+   "meshes": [
+    [
+     "gaura_hair",
+     1380
+    ],
+    [
+     "gaura_body",
+     7689
+    ],
+    [
+     "gaura_hat",
+     3220
+    ]
+   ],
+   "chains": {
+    "etc": 23,
+    "skirt": 6,
+    "hair": 6,
+    "cape": 7
+   },
+   "verts": {
+    "hair": 2598,
+    "skirt": 725,
+    "etc": 8372,
+    "cape": 594
+   }
+  },
+  "pc_set_hatir": {
+   "meshes": [
+    [
+     "hair",
+     1242
+    ],
+    [
+     "body",
+     1
+    ],
+    [
+     "body2",
+     4262
+    ]
+   ],
+   "chains": {
+    "skirt": 13,
+    "etc": 6,
+    "hair": 1
+   },
+   "verts": {
+    "hair": 1242,
+    "etc": 1231,
+    "skirt": 3032
+   }
+  },
+  "pc_set_kamielRare_r09": {
+   "meshes": [
+    [
+     "KamielRare_hair",
+     1944
+    ],
+    [
+     "body",
+     45
+    ],
+    [
+     "hair",
+     4264
+    ],
+    [
+     "hair_hat",
+     3472
+    ],
+    [
+     "body2",
+     4730
+    ]
+   ],
+   "chains": {
+    "etc": 29,
+    "skirt": 14,
+    "hair": 4
+   },
+   "verts": {
+    "hair": 9680,
+    "skirt": 441,
+    "etc": 4334
+   }
+  },
+  "pc_set_kurt2": {
+   "meshes": [
+    [
+     "Kurt2_body_cloak",
+     3322
+    ],
+    [
+     "kurt2_hair",
+     200
+    ],
+    [
+     "kurt2_body",
+     2653
+    ],
+    [
+     "kurt2_body2",
+     106
+    ]
+   ],
+   "chains": {
+    "etc": 9,
+    "cape": 15,
+    "skirt": 8
+   },
+   "verts": {
+    "cape": 3322,
+    "etc": 2292,
+    "skirt": 667
+   }
+  },
+  "pc_set_ronera": {
+   "meshes": [
+    [
+     "hair",
+     6165
+    ],
+    [
+     "body",
+     598
+    ],
+    [
+     "body2",
+     3307
+    ]
+   ],
+   "chains": {
+    "hair": 6,
+    "skirt": 7,
+    "etc": 3
+   },
+   "verts": {
+    "hair": 6165,
+    "skirt": 1870,
+    "etc": 2035
+   }
+  },
+  "pc_set_rosieIce": {
+   "meshes": [
+    [
+     "RosieIce_body3",
+     480
+    ],
+    [
+     "RosieIce_hair",
+     4862
+    ],
+    [
+     "RosieIce_body",
+     620
+    ],
+    [
+     "RosieIce_body2",
+     599
+    ]
+   ],
+   "chains": {
+    "skirt": 6,
+    "hair": 6,
+    "etc": 7
+   },
+   "verts": {
+    "etc": 1100,
+    "hair": 4862,
+    "skirt": 599
+   }
+  },
+  "pc_set_sylvestia": {
+   "meshes": [
+    [
+     "um01",
+     9
+    ],
+    [
+     "body",
+     12575
+    ]
+   ],
+   "chains": {
+    "skirt": 8,
+    "etc": 28
+   },
+   "verts": {
+    "etc": 9504,
+    "skirt": 3080
+   }
+  },
+  "pc_set_theia_r11": {
+   "meshes": [
+    [
+     "body",
+     12047
+    ],
+    [
+     "hair",
+     10954
+    ]
+   ],
+   "chains": {
+    "hair": 7,
+    "skirt": 10,
+    "etc": 13,
+    "cape": 4
+   },
+   "verts": {
+    "skirt": 6483,
+    "etc": 1809,
+    "hair": 11076,
+    "cape": 3633
+   }
+  },
+  "pc_set_ziz_all(a,b)": {
+   "meshes": [
+    [
+     "zizA_body",
+     2436
+    ],
+    [
+     "zizA_hair",
+     3098
+    ]
+   ],
+   "chains": {
+    "hair": 5,
+    "etc": 15,
+    "skirt": 12
+   },
+   "verts": {
+    "etc": 2436,
+    "hair": 3098
+   }
+  }
+ },
+ "excluded_costumes": [
+  "Bacha_guardian_*",
+  "KamielRare_body",
+  "theia_targa_*",
+  "ziz2_*",
+  "um03"
+ ],
+ "duplicates_skipped": [
+  "pc_set_meira_r07 (= meira_t_bip)",
+  "pc_set_rosieIce_r05 (≈ rosieIce)",
+  "pc_set_kamiel (kamielRare 안에 포함)",
+  "pc_set_eunha",
+  "pc_set_leviathan"
+ ],
+ "baseline_kinds": {
+  "cape": {
+   "verts": 18361,
+   "files": 6,
+   "chains": 63,
+   "infl_med_p90": [
+    2.0,
+    2.0
+   ],
+   "infl_max": 4,
+   "rigid": 0.48,
+   "along_blend": 0.23,
+   "side_blend": 0.27,
+   "bip_mixed": 0.02,
+   "bip_mixed_top": 0.06,
+   "bip_mixed_bottom": 0.02,
+   "bip_share_top": 0.03,
+   "helper_mixed": 0.0,
+   "bip_names": [
+    [
+     "Bip01 Spine2",
+     332
+    ],
+    [
+     "Bip01 L Clavicle",
+     97
+    ],
+    [
+     "Bip01 L Forearm",
+     24
+    ],
+    [
+     "Bip01 R Forearm",
+     24
+    ],
+    [
+     "Bip01 L UpperArm",
+     17
+    ],
+    [
+     "Bip01 R UpperArm",
+     17
+    ],
+    [
+     "Bip01 Spine1",
+     16
+    ],
+    [
+     "Bip01 L ForeTwist",
+     16
+    ]
+   ],
+   "chain_len_med": 3.0,
+   "parents": [
+    [
+     "bone_cape_L_all",
+     7
+    ],
+    [
+     "bone_cape_R_all",
+     7
+    ],
+    [
+     "bone_cape2_all",
+     3
+    ],
+    [
+     "bone_capeB_all",
+     3
+    ],
+    [
+     "bone_cape_L",
+     3
+    ],
+    [
+     "bone_cloak_Lall",
+     3
+    ]
+   ]
+  },
+  "etc": {
+   "verts": 57934,
+   "files": 18,
+   "chains": 246,
+   "infl_med_p90": [
+    1.0,
+    2.0
+   ],
+   "infl_max": 5,
+   "rigid": 0.54,
+   "along_blend": 0.18,
+   "side_blend": 0.11,
+   "bip_mixed": 0.14,
+   "bip_mixed_top": 0.23,
+   "bip_mixed_bottom": 0.06,
+   "bip_share_top": 0.13,
+   "helper_mixed": 0.06,
+   "bip_names": [
+    [
+     "Bip01 Spine2",
+     2214
+    ],
+    [
+     "Bip01 LCalfTwist",
+     1246
+    ],
+    [
+     "Bip01 RCalfTwist",
+     1246
+    ],
+    [
+     "Bip01 Head",
+     664
+    ],
+    [
+     "Bip01 Pelvis",
+     519
+    ],
+    [
+     "Bip01 LThighTwist",
+     433
+    ],
+    [
+     "Bip01 RThighTwist",
+     418
+    ],
+    [
+     "Bip01 Spine1",
+     414
+    ]
+   ],
+   "chain_len_med": 2.0,
+   "parents": [
+    [
+     "Bip01 Spine2",
+     19
+    ],
+    [
+     "bone_shoulder_R_all",
+     11
+    ],
+    [
+     "bone_shoulder_L_all",
+     7
+    ],
+    [
+     "bone_stuff_dwR_all",
+     6
+    ],
+    [
+     "Bip01 R Clavicle",
+     5
+    ],
+    [
+     "bone_wrist_Rall",
+     4
+    ]
+   ]
+  },
+  "skirt": {
+   "verts": 26853,
+   "files": 15,
+   "chains": 140,
+   "infl_med_p90": [
+    2.0,
+    2.0
+   ],
+   "infl_max": 4,
+   "rigid": 0.37,
+   "along_blend": 0.23,
+   "side_blend": 0.31,
+   "bip_mixed": 0.04,
+   "bip_mixed_top": 0.09,
+   "bip_mixed_bottom": 0.01,
+   "bip_share_top": 0.05,
+   "helper_mixed": 0.06,
+   "bip_names": [
+    [
+     "Bip01 Spine",
+     619
+    ],
+    [
+     "Bip01 Spine1",
+     452
+    ],
+    [
+     "Bip01 Pelvis",
+     303
+    ],
+    [
+     "Bip01 LThighTwist",
+     113
+    ],
+    [
+     "Bip01 RThighTwist",
+     105
+    ],
+    [
+     "Bip01 L Thigh",
+     1
+    ]
+   ],
+   "chain_len_med": 4.0,
+   "parents": [
+    [
+     "bone_skirt_R",
+     12
+    ],
+    [
+     "bone_skirt_all",
+     12
+    ],
+    [
+     "bone_skirt_L",
+     11
+    ],
+    [
+     "bone_skirt_BR",
+     10
+    ],
+    [
+     "bone_skirt_BL",
+     10
+    ],
+    [
+     "bone_skirt_FR",
+     9
+    ]
+   ]
+  },
+  "hair": {
+   "verts": 68090,
+   "files": 14,
+   "chains": 74,
+   "infl_med_p90": [
+    2.0,
+    3.0
+   ],
+   "infl_max": 4,
+   "rigid": 0.25,
+   "along_blend": 0.47,
+   "side_blend": 0.15,
+   "bip_mixed": 0.22,
+   "bip_mixed_top": 0.54,
+   "bip_mixed_bottom": 0.07,
+   "bip_share_top": 0.32,
+   "helper_mixed": 0.0,
+   "bip_names": [
+    [
+     "Bip01 Head",
+     15066
+    ],
+    [
+     "Bip01 Spine2",
+     26
+    ],
+    [
+     "Bip01 Spine1",
+     26
+    ],
+    [
+     "Bip01 Spine",
+     6
+    ]
+   ],
+   "chain_len_med": 4.0,
+   "parents": [
+    [
+     "bone_hair_all",
+     13
+    ],
+    [
+     "bone_hair_B",
+     10
+    ],
+    [
+     "bone_hair_FL",
+     10
+    ],
+    [
+     "bone_hair_FR",
+     10
+    ],
+    [
+     "bone_hair_BL",
+     5
+    ],
+    [
+     "bone_hair_BR",
+     5
+    ]
+   ]
+  }
+ },
+ "templates_used": [],
+ "updated": "2026-10-30 15:38"
+}
